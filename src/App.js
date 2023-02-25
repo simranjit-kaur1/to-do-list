@@ -35,7 +35,7 @@ const App = () => {
                 <li className="singletodo">
                 <span className="todotext" key={t.id}>{t.todo}</span>
                 <button>Edit</button>
-                <button onClick={()=>handleDelete(t.id)}>Delete</button>
+                <button onClick={()=>handleDelete(t.id)}>Delete </button>
               </li>
                 ))}
            
